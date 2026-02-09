@@ -1,5 +1,5 @@
 # Подключение к бд
-dotnet ef dbcontext scaffold "Host=***;Port=5442;Database=***;Username=***;Password=***" Npgsql.EntityFrameworkCore.PostgreSQL -o Models --force --no-onconfiguring
+dotnet ef dbcontext scaffold "Host=* * *;Port=5442;Database=* * *;Username=***;Password=***" Npgsql.EntityFrameworkCore.PostgreSQL -o Models --force --no-onconfiguring
 
 # Разработка системы управления продукцией мебельной компании
 
